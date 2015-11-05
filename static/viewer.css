@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#pm25 {
+    position: absolute;
+    height: 52.5vh;
+    background-color: #666666;
+    padding-top: 7.5vh;
+    color: white;
+
+    transition: all linear 400ms;
+    -webkit-transition: all linear 400ms;
+    -moz-transition: all linear 400ms;
+    -o-transition: all linear 400ms;
+}
+#pm10 {
+    position: absolute;
+    padding-top: 7vh;
+    height: 33vh;
+    top: 60%;
+}
+.pm {
+    text-align: center;
+    width: 100%;
+}
+.pm span {
+    display: block;
+}
+.pm span.label {
+    font-size: 5vh;
+    line-height: 5vh;
+}
+#pm25 span.entry {
+    font-size: 30vh;
+    line-height: 30vh;
+}
+#pm25 span.verdict {
+    font-size: 5vh;
+    line-height: 10vh;
+}
+#pm10 span.entry {
+    font-size: 15vh;
+    line-height: 15vh;
+}
